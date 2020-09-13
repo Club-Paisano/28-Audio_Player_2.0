@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="resets.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <img src="music.svg" alt="A music note">
+
+  <article>
+    <audio src=""></audio>
+
+    <p>Song Name</p>
+
+    <section class="play_controls">
+      <section>
+        <button data-time="prev" type="button" name="">⇤</button>
+        <button class = "playButton" type="button" name="button">►</button>
+        <button data-time="next" type="button" name="button">⇥</button>
+      </section>
+
+      <input data-playBack type="range" name="" min=0 max=100 value="0" step="1">
+
+
+    </section>
+
+    <section data-player="playbackSpeed">
+      <span>↕</span>
+      <input type="range" name="" value="1" min=".5" max="2.5" step=".5">
+      <span class="playbackSpeedIndicator">1x</span>
+    </section>
+
+    <section class="volume">
+      <span>🔈</span>
+      <input class="volumeControl" type="range" name=""min=0.0 max=1.0 value="0.5" step=".1">
+    </section>
+
+  </article>
+
+
+  <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

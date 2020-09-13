@@ -1,0 +1,49 @@
+
+:root {
+  --base1: #00204a;
+  --base2: #005792;
+  --base3: #00bbf0;
+  --base4: #fdb44b;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--base4);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: var(--base3);
+}
+
+img {
+  padding: 10px;
+  border: solid;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:fixed;
+  bottom: 0;
+  height: 20vh;
+  width:99.7vw;
+  border: solid ;
+  background: var(--base1);
+
+}
+
+
+p {
+  color: var(--base3);
+}
+
+input[type=range] {
+  background-color: var(--base4);
+}
+.play_controls {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
